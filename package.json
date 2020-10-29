@@ -1,5 +1,5 @@
 {
-	"name": "firestorter",
+	"name": "@garthomite/firestorter",
 	"version": "2.0.1",
 	"description": "Simple & super fast Firestore to React bindings using Mobx observables",
 	"keywords": [
@@ -22,13 +22,14 @@
 	"react-native": "lib/firestorter.module.js",
 	"typings": "lib/index.d.ts",
 	"sideEffects": false,
-	"repository": "https://github.com/IjzerenHein/firestorter",
+	"repository": "https://github.com/garthomite/firestorter",
 	"author": "IjzerenHein <hrutjes@gmail.com>",
 	"license": "MIT",
 	"files": [
 		"src",
 		"lib"
 	],
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"scripts": {
 		"build": "yarn tsc && node scripts/build.js",
 		"lint": "tslint -p tsconfig.json",
