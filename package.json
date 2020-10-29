@@ -70,7 +70,7 @@
 		"jest": "^24.9.0",
 		"jsdoc-babel": "^0.5.0",
 		"jsdoc-to-markdown": "^5.0.2",
-		"mobx": "^5.14.0",
+		"mobx": "^6.0.0",
 		"prettier": "^1.18.2",
 		"rollup": "^1.24.0",
 		"rollup-plugin-filesize": "^6.1.1",
